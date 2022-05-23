@@ -1,0 +1,115 @@
+/* ======================= genral Style =================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F9EBC8;
+    color: #000000;
+    font-size: system-ui;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #A0BCC2;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px ;
+    color: #000000;
+}
+
+input:focus { 
+    background: #DAE5D0;
+    transform: scale(1.1);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+/*============================ header style ================*/
+.crud .crud__header .crud__title {
+     text-align: center;
+     text-transform: uppercase;
+     margin: 10px 0;
+}
+
+.crud .crud__header .crud__subtitle {
+    display: block;
+    text-align: center;
+}
+
+.crud .crud__inputs .crud__price input{
+     width: 19%;
+}
+
+.total {
+    background: #B20600;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+.total::before {
+    content: "Total: ";
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #FF5F00;
+    color: #000000;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #f39b69;
+    letter-spacing: 1px;
+}
+
+.searchbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbtn button {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th,td {
+    padding: 5px;
+}
+
+/* ========================= button Delete all ===================*/
+
+.deletAll {
+    margin: 20px 0 ;
+    display: none;
+}
+
